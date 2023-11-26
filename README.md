@@ -12,6 +12,8 @@ nato kopirate moj main.cpp ali naredite svojega in MakeFile
 če vam vrže error zaradi #include <SDL2/SDL.h>, potem držite miško nad includeom ter kliknite na QuickFix in prvo opcijo oz. repair includePath, popravilo se bo samo
 
 samo prepirčajte se, da izgleda potem tako
+
+
 ![includePath](https://github.com/CrushedCookieNut/sdl2-setup/assets/96495881/7c499387-804b-474c-973c-9947aaac22d4)
 
 če vam ukaz v MakeFileu ne deluje, ker nimate mingw compilerja, uporabite to: g++ -I src/include -L src/lib -o main main.cpp -lSDL2main -lSDL2
@@ -19,6 +21,8 @@ samo prepirčajte se, da izgleda potem tako
 če pa vam MakeFile sploh ne deluje, lahko to komando vpišete direktno v terminal
 
 vaš project folder zdaj izgleda tako:
+
+
 ![project folder](https://github.com/CrushedCookieNut/sdl2-setup/assets/96495881/7bc56788-74fd-4524-87a2-d1523a07d7d6)
 
 sedaj v terminal samo še napišite ./main in, če se vam odpre okno ste vse naredili prav
